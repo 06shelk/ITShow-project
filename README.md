@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# GEMMI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. 프로젝트 소개
+2. 주요 기능 소개
 
-## Available Scripts
+---
+## 프로젝트 소개
 
-In the project directory, you can run:
+ <img src="src/img/mdImg/introImg.png" width="600">
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 서비스 소개
+  
+ 주식에 대한 관심이 높아지면서 관련 용어들이 많이 등장하는 요즘, 
+ GEMMI는 주식을 처음 접하거나 주식 용어에 익숙하지 않은 사람들도 다양한 방법으로 공부하고 배울 수 있는 웹사이트입니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 기획의도
+    
+     현재 많은 사람들이 주식에 관해 높은 관심을 갖고 있지만, 
+금융에 관한 지식 미흡해 주식에 접근하기 어려운 상황입니다. 
+따라서 주식을 쉽게 익힐 수 있는 공간을 제공하여,
+주식에 대한 어려움을 깨는 데 도움을 주는 웹을 기획했습니다.
 
-### `npm test`
+- 향후 운영 및 개선
+- 
+  웹 자체 내에서 주식 영상을 올릴 수 있도록 개선할 계획입니다. 
+또한 해외 주식 시장에 대한 정보를 제공하여 글로벌 투자에 대한
+이해도를 높이고자  합니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 기술 정보
+  
+  REACT, EXPRESS.JS, MYSQL, AWS
+---
 
-### `npm run build`
+## 주요 기능 소개
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 메인화면
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="src/img/mdImg/메인화면.png" width="600">
+<br/><br/><br/><br/><br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 가상시뮬레이션
 
-### `npm run eject`
+<img src="src/img/mdImg/가상시뮬레이션.png" width="600">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+게임을 통해 주식 시장에 대해 간단히 이해할 수 있습니다. (참고 : KRX 한국거래소 모의증권투자게임)
+<br/><br/><br/><br/><br/>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- 주식 단어 모음집
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img src="src/img/mdImg/주식 단어 모음집.png" width="600">
+주식 언어를 익힐 수 있습니다. (참고 : classroom)
+<br/><br/><br/><br/><br/>
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 주식 단어 게임
+  
+<img src="src/img/mdImg/주식 단어 게임.png" width="600">
+주식 언어를 간단한 게임을 통해 익힐 수 있습니다. 
+<br>
+   
